@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@500&family=Oswald&family=Roboto+Slab:wght@600&family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@500&family=Oswald&family=Roboto+Slab:wght@600&family=Roboto:wght@300&family=Zen+Old+Mincho&display=swap');
+html{
+  scroll-behavior: smooth;
+}   
+body{
+      margin: 0;
+      padding: 0;
+    } 
+
+    h1{
+       text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    h4
+    {
+      text-align: center;
+    }
+    h5{
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+    }
+   
+
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+      font-family: "Dosis", sans-serif;
+    }
+
+    .d-flex {
+      display: flex;
+    }
+
+    ul li {
+      list-style-type: none;
+    }
+  
+    /* ----------------------nav bar start----------------------------------- */
+    nav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    line-height: 270%;
+    border-bottom: 2px solid ;
+    z-index: 1;
+    }
+   .nav_contain{
+     margin: auto;
+   }
+   
+    nav img {
+      width: 115px;
+      height: 36px;
+      padding: 22px;
+    }
+
+    ul {
+      margin-left: auto;
+    }
+
+    
+
+    ul li a {
+      padding: 15px;
+      font-weight: 1000;
+      color: black;
+      font-size: 15px;
+    }
+
+
+    /* -----------------responsive bar start-------------------------------------- */
+    
+    .responsive_icon{
+      display: none;
+    }
+
+
+
+
+    /* ------------------navbar ends---------------------------------------------- */
+
+    /* ------------------Hero_div_start------------------------------------------------- */
+
+    .Hero_div{
+      background-color: rgb(238, 234, 234);
+      padding-top: 80px;
+    }
+    .hero_div_container{
+      padding-top: 90px;
+    }
+    .Hero_div_textarea{
+      width: 48%;
+      padding-right: 130px;
+      padding-top: 20px;
+    }
+    .Hero_div_imgarea{
+      width: 52%;
+    }
+    .Hero_div_textarea h2{
+       color: rgb(211, 70, 164);
+       font-size: 16px;
+       letter-spacing: 1.5px;
+       text-align: left;
+    }
+    .Hero_div_textarea h1{
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 63px;
+      margin-top: 15px;
+      text-align: left;
+    }
+    .Hero_div_textarea p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+      color: rgb(182, 179, 179);
+      margin-bottom: 40px;
+      line-height: 27px;
+    }
+    .Hero_div_textarea a{
+      color: white;
+      background-color: rgb(41, 170, 245);
+      padding: 10px 25px;
+    }
+   /* ------------------Hero_div_ends------------------------------------------------- */
+
+   /* -----------------Servies section start------------------------------------------------ */
+   .service{
+     padding: 60px 0;
+   }
+   .service h1{
+     text-align: center;
+     font-size: 40px;
+     margin-bottom: 40px;     
+   }
+   .boxess{
+     width: 33.33%;
+
+   }
+   .colorcircle{
+     border-radius: 50%;
+     width: 25%;
+     height:100px ;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .bg1{
+     background-color: rgb(250, 160, 242);
+   }
+   .bg2{
+    background-color:rgb(78, 173, 78) ;
+   }
+   .bg3{
+    background-color:rgb(116, 195, 240); ;
+   }
+   .fas{
+     color: white;
+     font-size: 26px;
+   }
+   .boxess h2{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 35px;
+   }
+   .boxess p{
+     text-align: center;
+     font-size: 18px;
+     padding: 0 43px;
+     color: rgb(116, 114, 114);
+   }
+
+
+   /* ------------------------SERVICE SECTION END-------------------------------- */
+   /* ------------------------Latest work starts--------------------------------- */
+   .latestwork{
+     background-color: rgb(234, 234, 234);
+     padding: 60px 0;
+   }
+   .latestwork h1{
+     font-size: 25px;
+     text-align: center;
+   }
+   .latestwork_textarea{
+     padding-right: 90px;
+     padding-top: 50px;
+   }
+   .textbox_icon{
+     width: 15%;
+   }
+   .textbox_text h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+   }
+   .textbox_text p{
+     font-size: 13px;
+    color: rgb(145, 141, 141);
+  }
+  .L_W_icon{
+    color: rgb(173, 170, 170);
+    /* padding: 5px; */
+    font-size: 15px;
+  }
+  .latestwork_textarea h3{
+    font-size: 23px;
+    color: rgb(87, 87, 87);
+    margin-bottom: 40px;
+    margin-left: 8.8%;
+    text-align: left;
+  }
+  .latestwork_textarea a{
+    color: white;
+    background-color: rgb(243, 105, 179);
+    padding: 13px 45px;
+    font-size: 18px;
+    margin-left: 8.8%;
+  }
+  /* -----------------------Latest work end--------------------------------- */
+  /* ------------------------Portfolio section ----------------------------- */
+
+  .portfolio .container h1{
+    font-size: 33px;
+    margin-top: 70px;
+  }
+  .portfolio .container ul{
+    display: flex;
+    justify-content: center;
+  }
+  .portfolio .container ul li{
+    margin: 10px;
+    background-color: rgb(234, 234, 234);
+    padding: 7px 10px;
+    border-radius:2.8px ;
+  }
+  .portfolio .container ul li a{
+    color: darkgray;
+  }
+  .portfolio .container ul li:hover{
+    background-color: rgb(11, 182, 11);
+  }
+  .portfolio .container ul li:hover a{
+    color: rgb(255, 255, 255);
+  }
+  .images_section{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 45px 0 50px;
+  }
+  .images_section img{
+    width: 25%;
+  }
+
+  /* --------------------portfolio ends-------------------- */
+  /* --------------------HAPPY CLIENTS--------------------- */
+
+  .happy_clint{
+    padding: 40px 0px;
+  }
+  .happy_clint .container h1{
+    font-size: 40px;
+  }
+  .client_info img{
+    border-radius: 50%;
+  }
+  .client_info h4{
+  
+    font-size: 20px;
+    margin: 0;
+    color: rgb(106, 209, 228);
+  }
+  .client_info h5{
+  
+    font-size: 14px;
+    margin: 0;
+  }
+  .comment_statement{
+    background-color: rgb(249, 249, 249);
+    width: 60%;
+    margin: 30px auto auto;
+    padding: 25px 82px 25px;
+    box-sizing: border-box;
+    }
+  .comment_statement p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  /* ------------------------Happy client section end---------------------- */
+
+  /* -----------------------Brand section end------------------------------- */
+
+  
+  .brands .container ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .brands .container ul li{
+     padding: 63px;
+  }
+
+  /* ------------------------Brand section end------------------------------ */
+
+ /* ---------------------------Amazing team section start-------------------------- */
+
+ .team{
+   padding: 40px;
+ }
+ .team .container h1{
+    
+     font-size: 35px;
+     margin-bottom: 7px;
+ }
+ .team .container h3{
+  
+   font-weight: 500;
+   font-size: 17px;
+   color: darkgray;
+   margin: 0 auto 50px;
+}
+.team_members{
+  justify-content: space-around;
+}
+.member_info{
+  width: 24.5%;
+}
+.member_info p{
+   text-align: center;
+}
+.member_info h2{
+   
+}
+.member_info h4{
+   
+}
+.team_member_image{
+  position: relative;
+  z-index: 0;
+}
+.team_member_socilmedia{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all .5s ease-in;
+
+}
+.team_member_socilmedia ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  line-height: 1500%;
+}
+
+.icn{
+  font-size: 25px;
+  color: white;
+  transition: all .5s ease-in;
+
+}
+.team_member_socilmedia:hover{
+  opacity: 1;
+}
+.team_member_socilmedia li a:hover .icn{
+  color: rgb(45, 134, 236);
+}
+.team_member_socilmedia li a:hover .fa-pinterest{
+  color: rgb(233, 0, 0);
+}
+.team_member_socilmedia li a:hover .fa-google-plus-g{
+  color: rgb(214, 14, 14);
+}
+
+/* ------------------------------Amazing team section sen------------------------------- */
+/* -----------------------------Twitter section start----------------------------------- */
+
+.twitter_comment{
+  background-color: rgb(50, 158, 247);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.twitter_comment .container p{
+  font-size: 17px;
+  padding: 0 285px;
+}
+.twitter_comment .container h4{
+    font-weight: 200;
+}
+.twit{
+  font-size: 30px;
+}
+
+/* -----------------------------Twitter section End----------------------------------- */
+
+/* -----------------------------footer section start---------------------------------- */
+
+/*-----------footer Head----------------*/
+
+.footer .container h1{
+  color: white;
+  font-size: 35px;
+  margin-top: 0;
+  padding-top: 75px;
+}
+.contact{
+  padding: 50px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.f-icon{
+  width: 35%;
+  height: 100%;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.contact_items{
+  width: 33.33%;
+}
+.home_icon{
+  background-color: rgb(252, 29, 140);
+}
+.tele_phone_icon{
+  background-color: rgb(15, 190, 29);
+}
+.email_icon{
+  background-color: rgb(23, 150, 255);
+}
+.contact_items h3{
+  color: white;
+  font-size: 20.3px;
+
+}
+
+/* --------------------FOOTER MID START--------------------- */
+
+.footer_mid{
+   justify-content:space-evenly;
+   margin: 70px;
+}
+.footer_left{
+  width: 40%;
+  color: white;
+}
+.footer_right{
+  width: 40%;
+}
+input{
+  width: 100%;
+  height: 12%;
+  border-radius: 8px;
+  margin-bottom: 7.5%;
+}
+textarea{
+  width: 100%;
+  height: 35%;
+  margin-bottom: 40px;
+}
+.icon_s{
+  width: 40px;
+  height: 40px;
+  border: 3.5px solid white;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_st{
+  font-size:20px ;
+}
+.footer_right a{
+  background-color: rgb(12, 136, 253);
+  padding: 15px 25px;
+  color: white;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.footer_left h2{
+  margin-top: 0;
+  text-align: left;
+}
+.footer_left p{
+  padding-right: 20px;
+  margin-bottom: 30px;
+}
+.socil_media_icons{
+  margin: 60px 0 100px;
+}
+
+/* ------------------footer mid ends---------------------- */
+
+/* -------------------footer lower start------------------ */
+
+.footer_lower h4{
+  padding: 10px;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+
