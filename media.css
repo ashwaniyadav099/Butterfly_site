@@ -1,0 +1,212 @@
+@media screen and (max-width: 600px) {
+   
+  .container{
+    width: 100%;
+  }
+  .d-flex{
+    display: block;
+  }
+
+
+
+  /* ----------nav section start-------------- */
+
+  nav{
+    position:relative;
+  }
+  nav .nav_contain ul{
+    display: none;
+  }
+ 
+  /* --------------responsive navbar------------- */
+  
+   .responsive_icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 20px;
+   }
+   .checked{
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    position: relative;
+      top: -40px;
+   }
+  .fa-bars{
+      color: rgb(2, 2, 2);
+      font-size: 35px;
+  }
+  
+ 
+  /* ------------nav section ends--------------- */
+  /* -------------hero section starts----------  */
+
+  .Hero_div{
+    padding-top: 10px;
+  }
+  .hero_div_container{
+    padding-top: 20px;
+  }
+  .Hero_div_textarea{
+    padding-right: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Hero_div_imgarea{
+    width: 100%;
+  }
+  .Hero_div_imgarea img{
+    width: 100%;
+  }
+  .Hero_div_textarea p{
+    padding: 12px;
+  }
+  /* -----------hero section ends-------------- */
+
+  /* ------------service section starts--------- */
+
+  .boxess{
+    width: 100%;
+ }
+  
+  /* ----------------service section ends---------- */
+
+  /* ----------------latest work start-------------  */
+
+  
+  
+  .latestwork_textarea{
+   padding: 5px;
+   margin-bottom: 15px;
+  }
+  .textbox{
+    display: flex;
+  }
+  .latestwork_imagearea img{
+      width: 100%;
+  }
+  
+   /* ----------------latest work ends-------------  */
+   /* -----------------Portfolio  starts------------ */
+
+   .portfolio .container h1{
+    font-size: 33px;
+    margin-top: 70px;
+  }
+  .portfolio .container ul{
+    display: block;
+    padding: 0;
+  }
+  .portfolio .container ul li{
+   text-align: center;
+  }
+  .images_section img{
+    width: 48%;
+  }
+
+  /* ----------------Portfolio  ends ----------------- */
+
+  /* ----------------Happy client--------------------- */
+
+  .client_info {
+    text-align: center;
+  }
+  .client1{
+    border: 2px solid black;
+    margin-bottom: 5px;
+  }
+  .client2{
+    border: 2px solid black;
+  }
+  .comment_statement{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+
+  /* ---------------Happy client ends------------------ */
+
+  /* ----------------Brand section start---------------- */
+
+  .brands .container ul{
+    display: block;
+  }
+  .brands .container ul li{
+     padding: 50px;
+  }
+
+  /* ----------------Brand section ends---------------- */
+
+  /* -----------------team section start---------------- */
+
+  .team{
+    padding: 10px;
+  }
+  .team .container h1{
+    margin-bottom: 15px;
+  }
+ .member_info{
+   width: 100%;
+   margin-bottom: 80px;
+   background-color: aliceblue;
+ }
+ .team_member_image{
+   text-align: center;
+ }
+ .team_member_image img{
+  border-radius: 50%;
+}
+/* -----------------team section ends---------------- */
+
+/* ------------------twitter section starts------------ */
+
+.twitter_comment .container p{
+  padding: 0px;
+}
+/* ------------------twitter section ends------------ */
+/* ------------------footer section starts------------ */
+
+/*-----------footer Head----------------*/
+
+.contact_items{
+  width: 100%;
+}
+.home_icon{
+  width: 130px;
+  height: 130px;
+}
+.tele_phone_icon{
+  width: 130px;
+  height: 130px;
+}
+.email_icon{
+  width: 130px;
+  height: 130px;
+}
+.contact_items h3{
+  font-size: 25px;
+
+}
+
+/* --------------------FOOTER MID START--------------------- */
+
+.footer_mid{
+   margin: 50px;
+}
+.footer_left{
+  width: 100%;
+}
+.footer_right{
+  width: 100%;
+}
+input{
+height: 40px;
+}
+
+.socil_media_icons{
+ display: flex;
+}
+}
